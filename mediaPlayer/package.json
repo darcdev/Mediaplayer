@@ -1,9 +1,8 @@
 {
-    "name": "darcdev/mediaPlayer",
+    "name": "@darcdev/mediaplayer",
     "version": "1.0.0",
-    "description": "",
+    "description": "a extensible mediaplayer",
     "main": "lib/MediaPlayer.js",
-    "dependencies": {},
     "devDependencies": {
         "typescript": "^3.8.3"
     },
@@ -12,6 +11,6 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "",
+    "author": "darcdev",
     "license": "ISC"
 }

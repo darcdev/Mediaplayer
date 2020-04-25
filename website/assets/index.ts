@@ -1,7 +1,7 @@
-import MediaPlayer from './MediaPlayer';
-import AutoPlay from './plugins/AutoPlay';
-import AutoPause from './plugins/AutoPause';
-import Ads from './plugins/Ads';
+import MediaPlayer from  '@darcdev/mediaplayer';
+import AutoPlay from '@darcdev/mediaplayer/lib/plugins/AutoPlay';
+import AutoPause from '@darcdev/mediaplayer/lib/plugins/AutoPause';
+import Ads from '@darcdev/mediaplayer/lib/plugins/Ads'
 
 const video : HTMLElement = document.querySelector('video');
 const playButton : HTMLElement = document.querySelector('#playButton');
